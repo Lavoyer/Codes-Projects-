@@ -19,11 +19,11 @@ The case studies focus on **architecture patterns**, **process flows**, **techni
 
 ```
 /projects
-  ├── efficient-frontier/       # Portfolio optimization case study
+  ├── Markowitz Efficient Frontier/     # Portfolio optimization platform
   ├── pgi-calculator/          # PGI (Potential Gross Income) calculator
-  ├── airflow-vm/              # Apache Airflow on virtual machines
-  ├── automation-bots/         # Automation bots architecture
-  ├── system-architecture/     # System architecture patterns
+  ├── airflow-vm/              # Apache Airflow FULL deployment on virtual machines
+  ├── automation-bots/         # Automation bots architecture 
+  ├── system-architecture/     # System architecture 
   └── power-bi/                # Power BI integration and analytics
 ```
 
