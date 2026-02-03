@@ -2,36 +2,23 @@
 
 ## Project Overview
 
-The Efficient Frontier project implements a sophisticated portfolio optimization system for financial asset management. The system calculates optimal asset allocations based on Modern Portfolio Theory (MPT) to maximize returns for a given level of risk.
+The Markowitz Efficient Frontier project was developed with the objective of improving portfolio construction based on risk–return analysis for the company where I work. The solution employs the **** algorithm combined with structured datasets to identify optimal portfolios, enabling more efficient portfolio management, more accurate decision-making, and real-time adjustments.
 
 ## Business Problem
 
 Financial advisors needed a tool to:
-- Analyze risk-return profiles of investment portfolios
-- Identify optimal asset allocations
-- Visualize the efficient frontier curve
-- Compare current portfolios against optimal allocations
-- Generate recommendations for portfolio rebalancing
+- Analyze risk and return across multiple optimal portfolio combinations
+- Evaluate allocation scenarios with real-time adjustable parameters
+- Identify efficient frontiers based on different profiles and constraints
+- Support strategic decision-making across multiple investment portfolios
+- Deliver high analytical accuracy with intuitive usability, surpassing the limitations of existing market solutions
 
 ## Technical Architecture
 
 ### High-Level Architecture
 
 ```
-┌─────────────────┐         ┌──────────────────┐         ┌─────────────────┐
-│                 │         │                  │         │                 │
-│  Data Sources   │────────▶│  Processing      │────────▶│  Visualization  │
-│  (Market Data)  │         │  Engine          │         │  Layer          │
-│                 │         │                  │         │                 │
-└─────────────────┘         └──────────────────┘         └─────────────────┘
-                                    │
-                                    │
-                            ┌──────────────────┐
-                            │                  │
-                            │  Optimization    │
-                            │  Algorithm       │
-                            │                  │
-                            └──────────────────┘
+
 ```
 
 ### Components
