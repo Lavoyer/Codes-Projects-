@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Development of an enterprise automation framework using software bots to automate repetitive business processes. The system orchestrates multiple bots performing tasks across various applications, reducing manual effort and improving accuracy.
+Development of an enterprise automation framework using software bots to automate repetitive business processes. The system orchestrates multiple bots performing tasks across various applications, reducing manual effort and improving accuracy, with all bots integrated and orchestrated through Apache Airflow, which manages scheduling, dependencies, monitoring, and execution flows across the entire automation ecosystem.
 
 ## Business Problem
 
